@@ -1,0 +1,84 @@
+
+        h1{
+            margin: 0px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        body{
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            width: 1100px;
+            height: 100px;
+            border: 5px solid rgb(167, 34, 26);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #nav_main{
+            text-align: center;
+        }
+        #nav_esq, #nav_dir{
+            margin-top: 20px;
+            display: inline-block;
+            width: 500px;
+            height: 50px;
+            text-transform: uppercase;
+
+        }
+        #nav_esq a, #nav_dir a{
+            padding: 5px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #333333;
+        }
+        #nav_esq a:hover, #nav_dir a:hover{
+            background-color: rgb(167, 34, 26);
+            padding: 5px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #ffffff;
+            transition: all 0.3s;
+        }
+        .menu_atual{
+            background-color: rgb(167, 34, 26);
+            color: #ffffff;
+        }
+        #nav_logo{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: burlywood;
+        }
+        #nav_dir{
+            display: inline-block   ;
+            width: 500px;
+            height: 50px;
+        }
+        main{
+            width: 1100px;
+            height: 1000px;
+            text-align: center;
+            border: 5px solid rgb(167, 34, 26);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer{
+            width: 1100px;
+            height: 100px;
+            background-color: rgb(167, 34, 26);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        main div{
+            display: inline-block;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            margin: 40px;
+        }
+        #ninja{
+            background-color: #ffffff;
+            width: 200px;
+        }
+    
