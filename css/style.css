@@ -70,10 +70,14 @@
             margin-left: auto;
             margin-right: auto;
         }
-        main div{
+        /* main div{
             display: inline-block;
             background-color: green;
             width: 100px;
             height: 100px;
             margin: 40px;
+        } */
+
+        #button_resp{
+            padding: 10px;
         }

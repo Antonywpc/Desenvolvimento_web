@@ -7,10 +7,15 @@
     <link rel="shortcut icon" href="img/fav_icon.png" type="image/png">
     <title>Clone Batel Grill</title>
     <style>
-        #sec_form{
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
+        #sec_form, #sec_result{
+            display: inline-block;
+            vertical-align: top;
+            border: 1px solid #888;
+            height: 400px;
+            padding: 10px;
+            width: 40%;
+            /* margin-left: auto; */
+            /* margin-right: auto; */
         }
         fieldset{
             text-align: left;
@@ -42,6 +47,11 @@
     </header>
     <main>
         <h1 id="tituloP">Contato</h1>
+
+        <div id="button_resp">
+            <button onclick="copia_cola()">Copia e cola</button>
+            <button onclick="calc_media()">Média de notas</button>
+        </div>
         
         <section id="sec_form">
             <action="" method="post">
@@ -69,18 +79,20 @@
                     <legend>Feedback</legend>
 
                 </fieldset>
-                <button onclick="altera()">Altera texto do título</button>
+                <button onclick="altera()">Copia e cola</button>
                 
 
             </form>
         </section>
+        <section id="sec_result">
 
+        </section>
 
     </main>
     <footer>
 
     </footer>
 
-    <script src="./js/code.js"></script>
+    <script src="./js/code2.js"></script>
 </body>
 </html>
